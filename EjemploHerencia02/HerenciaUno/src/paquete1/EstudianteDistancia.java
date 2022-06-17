@@ -7,9 +7,9 @@ public class EstudianteDistancia extends Estudiante{
         costoAsginatura: Real 
         matriculaDistancia: Real*/ 
     //  Métodos establecer y calcular para los datos o atributos de la clase
-    int numeroAsignaturas;
-    double costoAsignatura;
-    double matriculaDistancia;
+    private int numeroAsignaturas;
+    private double costoAsignatura;
+    private double matriculaDistancia;
     
     // 2.  Método establecerNumeroAsginaturas(numero: Real)
     public void establecerNumeroAsginaturas(int numero){
